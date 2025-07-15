@@ -1,2 +1,3 @@
-# Voidstrike-hub
-THİS hub for game hacks THİs hub is in Alpha THİs hub May have some bugs
+### 💉 Voidstrike Hub Script
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hacksforroblox1/Voidstrike-hub/main/voidstrike-hub-1.0.lua"))() 
