@@ -66,3 +66,27 @@ Rayfield:Notify({
    Duration = 6,
    Image = 4483362458
 })
+local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/hacksforroblox1/Voidstrike-hub/main/rayfield.lua"))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "Voidstrike Hub",
+    LoadingTitle = "Yükleniyor...",
+    LoadingSubtitle = "Bekleyin...",
+    ConfigurationSaving = {Enabled = false},
+    Discord = {Enabled = false},
+    KeySystem = false
+})
+
+local Tab = Window:CreateTab("Ana Menü", 4483362458)
+
+Tab:CreateButton({
+    Name = "Test Butonu",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Voidstrike",
+            Content = "Butona bastın gardaş!",
+            Duration = 4,
+            Image = 4483362458
+        })
+    end
+})
