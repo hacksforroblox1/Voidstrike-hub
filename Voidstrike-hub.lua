@@ -1,5 +1,7 @@
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/voiddevprojects/gui-frameworks/main/rayfield-clean.lua"))()
-
+local Window = Rayfield:CreateWindow({...})
+local Tab = Window:CreateTab("...", ...)
+Tab:CreateButton({...})
 local Window = Rayfield:CreateWindow({
    Name = "⚔️ Voidstrike Hub | Super League Soccer",
    LoadingTitle = "Voidstrike Hub",
